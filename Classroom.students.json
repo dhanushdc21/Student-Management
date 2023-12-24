@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "658860ca936cb3c3b35e6962"
+  },
+  "emailID": "roshan@gmail.com",
+  "password": "123roshan",
+  "name": "Roshan",
+  "tasks": [
+    {
+      "description": "Complete Assignment 1",
+      "deadline": {
+        "$date": "2023-01-15T00:00:00.000Z"
+      },
+      "done": true,
+      "_id": {
+        "$oid": "658860ca936cb3c3b35e6963"
+      }
+    },
+    {
+      "description": "Project 3",
+      "deadline": {
+        "$date": "2023-01-20T00:00:00.000Z"
+      },
+      "done": false,
+      "_id": {
+        "$oid": "658860ca936cb3c3b35e6964"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65886110936cb3c3b35e6967"
+  },
+  "emailID": "dhanush@gmail.com",
+  "password": "123dhanush",
+  "name": "Dhanush",
+  "tasks": [
+    {
+      "description": "Complete Assignment 1",
+      "deadline": {
+        "$date": "2023-02-05T00:00:00.000Z"
+      },
+      "done": false,
+      "_id": {
+        "$oid": "65886110936cb3c3b35e6968"
+      }
+    },
+    {
+      "description": "PComplete Lab Cycle",
+      "deadline": {
+        "$date": "2023-01-19T00:00:00.000Z"
+      },
+      "done": false,
+      "_id": {
+        "$oid": "65886110936cb3c3b35e6969"
+      }
+    },
+    {
+      "description": "Prepare for Lab Exam",
+      "deadline": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "done": false,
+      "_id": {
+        "$oid": "65886110936cb3c3b35e696a"
+      }
+    }
+  ],
+  "__v": 0
+}]
